@@ -127,6 +127,7 @@ padding: 10px;
 }
 
 .faq-lista dt {
+  font-size: 1.25em;
   font-family: monospace;
   font-weight: bold;
   margin-top: 2rem;
