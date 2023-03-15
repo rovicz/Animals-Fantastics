@@ -1,7 +1,3 @@
-[data-cor="azul"] {
-  background: blue;
-}
-
 body, h1, h2, ul, li, p, dd, dt, dl {
   margin: 0px;
   padding: 0px;
@@ -139,7 +135,6 @@ body {
   margin-top: 2rem;
   margin-bottom: .5rem;
   color: #E54;
-  cursor: pointer;
 }
 
 .faq-lista dt::before {
@@ -302,18 +297,19 @@ body {
   content: '';
   width: 6px;
   height: 6px;
-  background-color: #e54;
+  background: #E54;
   border-radius: 50%;
   margin-left: 4px;
   border: 2px solid #000;
 }
 
 [data-semana].aberto::after {
-  display: inline-block;
-  content: '';
-  width: 6px;
-  height: 6px;
-  background-color: #3f4;
-  border-radius: 50%;
-  border: 2px solid #000;
+  background: #3F4;
+}
+
+.btc-preco {
+  background: #3F4;
+  padding: .2rem .5rem;
+  font-weight: bold;
+  border-radius: 2px;  
 }
